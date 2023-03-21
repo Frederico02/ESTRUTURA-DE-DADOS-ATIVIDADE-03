@@ -13,11 +13,8 @@ O programa desenvolvido pelo aluno e a sua justificativa deverá ser postado em 
 
 
 resposta : 
-
 A saída desse programa será:
 
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[5, 4, 3, 2, 1, 10, 9, 8, 7, 6]
 
-Podemos ver que a ordem dos números exibidos é a mesma ordem em que foram inseridos. Isso ocorre porque tanto a Pilha quanto a Fila seguem a ordem de inserção dos elementos. Quando os números são removidos da Pilha e inseridos na Fila, eles são adicionados no final da Fila, preservando a ordem original.
-
-Portanto, a ordem dos números exibidos é a mesma em que foram inseridos.
+Podemos ver que a ordem dos números exibidos é diferente da ordem em que foram inseridos. Isso ocorre porque a Pilha e a Fila foram utilizadas de maneira invertida. Ao inserir os elementos na Pilha e na Fila, os elementos são inseridos no final da Pilha e no final da Fila, respectivamente. Quando os elementos são removidos da Pilha e inseridos na Fila, eles são adicionados no final da Fila, mas a ordem é invertida. Portanto, a ordem final dos números na Fila é diferente da ordem em que foram inseridos na lista.
